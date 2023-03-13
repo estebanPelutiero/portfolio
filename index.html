@@ -4,9 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;600;700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
     
+    <!-- header -->
+
+    <header class="header">
+        <h1 class="h1"><a href="#home" title="Esteban Pelutiero" class="a">Esteban Pelutiero</a></h1>
+        <nav class="nav">
+            <ul class="ul">
+                <li class="li"><a href="#home" title="Home" class="a">Home</a></li>
+                <li class="li"><a href="#works" title="Works" class="a">Works</a></li>
+                <li class="li"><a href="#about" title="About" class="a">About</a></li>
+            </ul>
+        </nav>
+    </header>   
+
+    <!-- main Wrapper -->
+
+    <main class="main">
+
+        <!-- home section -->
+
+        <div class="seccion" id="home">
+
+            <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+    
+            <section class="section">
+                <h2 class="h2">Esteban Pelutiero</h2>
+                <h3 class="h3">Frontend Developer</h3>
+
+                <ul class="ul">
+                    <li class="li">
+                        <a href="#" class="a" title="Github">Check mi Github!</a>
+                    </li>
+                    <li class="li">
+                        <a href="#" class="a" title="Linkedin">Check mi Linkedin</a>
+                    </li>
+                </ul>
+            </section>
+
+        </div>  
+    
+        <!-- works section -->
+    
+        <section class="seccion" id="works">
+    
+            <h2 class="h2">Works</h2>
+            <p class="p">Works I made with HTML, CSS, javaScript, React JS</p>
+    
+            <div class="grid">
+                <article class="article">
+                    <a href="#" title="work1" class="a">
+                        <figure class="figure">
+                            <img src="#" alt="image" class="img" loading="lazy">
+                        </figure>
+                        <h4 class="h4">Name of the work</h4>
+                    </a>
+                </article>
+
+                <article class="article">
+                    <a href="#" title="work1" class="a">
+                        <figure class="figure">
+                            <img src="#" alt="image" class="img" loading="lazy">
+                        </figure>
+                        <h4 class="h4">Name of the work</h4>
+                    </a>
+                </article>
+            </div>
+    
+        </section>
+
+        <!-- about Me section -->
+
+        <section class="seccion about" id="about">
+
+            <h2 class="h2">About me</h2>
+
+            <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repudiandae inventore voluptate eos ipsum laboriosam.</p>
+
+            <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repudiandae inventore voluptate eos ipsum laboriosam.</p>
+
+            <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repudiandae inventore voluptate eos ipsum laboriosam.</p>
+
+            <ul class="rrss">
+                <li class="li">
+                    <a href="#" class="a" title="name" target="_blank" rel="noopener noreferrer">
+                        <svg class="svg"></svg>
+                    </a>
+                </li>
+                
+                <li class="li">
+                    <a href="#" class="a" title="name" target="_blank" rel="noopener noreferrer">
+                        <svg class="svg"></svg>
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <span>Made by Esteban Pelutiero</span>
+    </footer>
+
 </body>
 </html>

@@ -1,0 +1,226 @@
+
+/*------------------------------------------------------------------ RESET */
+
+:root {
+    --red: #e50914;
+    --white: #fff;
+    --grey: #303030;
+    ---grey-l: #757575;
+    --black: #000;
+
+    --principal-font: 'Frank Ruhl Libre', serif;
+    --secondary-font: 'Nunito Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+img, video, figure {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+    object-position: center center;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+p, a {
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+}
+
+table,
+tr,
+td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+form,
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    background-color: transparent;
+    display: flex;
+    color: inherit;
+}
+
+body {
+    font-family: var(--secondary-font);
+    font-size: 100%;
+    min-height: 100vh;
+    background-color: var(--white);
+}
+
+h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+h1 {
+    font-family: var(--principal-font);
+    font-weight: 500;
+}
+
+/* ------------------------------- header classes */
+
+.header {
+    width: 100%;
+    min-height: 5em;
+    background-color: lightblue;
+    padding: 1em 2em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .h1 {}
+.header .h1 .a {}
+
+.header .nav {}
+
+.header .ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.header .li {
+    margin: 0 1em;
+}
+
+.header .li .a{}
+
+/* ------------------------------- main classes */
+
+.main {
+    background: lightgray;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.seccion {
+    width: 100%;
+    min-height: 80vh;
+    background: lightblue;
+    margin: 1em 0;
+    padding: 2em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion .circles {}
+.seccion .circle {}
+.seccion .ul {}
+.seccion .ul .li {}
+.seccion .ul .a {}
+.seccion .section {}
+.seccion .h2 {}
+.seccion .h3 {}
+
+.seccion .p {}
+.seccion .grid {
+    width: 90%;
+    background-color: lightcoral;
+    margin: 1em 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1em;
+}
+.seccion .article {
+    width: 100%;
+    min-height: 20vh;
+    background: lightgoldenrodyellow;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.seccion .figure {
+    width: 100%;
+    background: red;
+}
+.seccion .img {
+    width: 100%;
+    background: limegreen;
+}
+.seccion .h4 {
+    width: 100%;
+    height: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {}
+.about .h2 {}
+.about .p {
+    max-width: 40em;
+    background: lime;
+    margin: 0 0 1em;
+    text-align: left;
+}
+.about .rrss {
+    width: 100%;
+    background: lightgreen;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.about .li {
+    background: orange;
+    margin: 0 1em;
+}
+.about .a {}
+.about .svg {
+    width: 3em;
+    height: 3em;
+    background: red;
+}
+
+.footer {
+    background-color: lightpink;
+    padding: 2em 0;
+    text-align: center;
+}
+.footer.span{}
+
+
+
